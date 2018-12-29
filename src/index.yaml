@@ -1,0 +1,7 @@
+---
+projects:
+        - name:  Visaulizing Scholarly Influence
+          img:  require('./assets/images/citationvis_thumb.png')
+          description:
+                  Tools to visualize scholarly influence <http://scholar.eigenfactor.org>.
+...
