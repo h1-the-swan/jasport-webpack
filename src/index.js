@@ -28,6 +28,7 @@ var projects = [
 		"img": require('./assets/images/infomap_diagram_thumb.jpg'),
 		"description": 
 		`
+		Community detection, or clustering, algorithms can reveal patterns and relationships in complex citation networks. These algorithms are computationally difficult, however, and with the continually increasing number of publications, the challenge is to adapt these algorithms to very large networks. Using several parallel processing techniques, I am able to perform <a href="http://www.mapequation.org/code.html" target="_blank">Infomap</a> clustering on networks with hundreds of millions of publications and over 1 billion citation links.
 		`
 	},
 	{
