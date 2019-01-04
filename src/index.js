@@ -12,20 +12,58 @@ jquery(()=>{
 
 var projects = [
 	{
-		"name": "Visualizing Scholarly Influence",
+		"name": "Visualizing scholarly influence",
 		"img": require('./assets/images/citationvis_thumb.png'),
 		"description": 
-			`
-			Visualizing Scholarly Influence <a href="http://scholar.eigenfactor.org/" target="_blank">Link</a>
-			`
+		`
+		The scholarly literature is a vast store of formalized human knowledge, interconnected by citations between publications. 
+		Looking at these citations is one way to measure the influence of scholarly research. 
+		<a href="http://scholar.eigenfactor.org/" target="_blank">Scholar.eigenfactor.org</a> 
+		is a collection of tools I built to use citations to measure and visualize the influence of collections of papers. 
+		These collections can represent, for example, individual scholars, or journals, academic departments, or fields of study.
+		`
 	},
 	{
-		"name": "Predictors of Permanent Housing for Homeless Families",
+		"name": "Analyzing large citation networks",
+		"img": require('./assets/images/infomap_diagram_thumb.jpg'),
+		"description": 
+		`
+		`
+	},
+	{
+		"name": "Mathematical Jargon: Calculating differences between fields",
+		"img": require('./assets/images/dendrogram_mathjargon_thumb.jpg'),
+		"description": 
+		`
+		We analyze the mathematical language used in hundreds of thousands of scientific papers, comparing the use of math across different disciplines. 
+		By comparing the distributions of mathematical symbols and terms across fields, we quantify the "jargon barriers" between these fields—the difficulty any two fileds might have communicating based on how different their use of mathematical language is. 
+		We find that characterizing fields by their use of mathematical language causes them to group in intuitive ways, and we explore how this approach could be used for recommendations in the scholarly literature, and for helping to bridge knowledge gaps in science.
+		`
+	},
+	{
+		"name": "Predictors of permanent housing for homeless families",
 		"img": require('./assets/images/sankey_thumb.png'),
 		"description": 
-			`
-			<a href="http://escience.washington.edu/research-project/predictors-of-permanent-housing-for-homeless-families/" target="_blank">Link</a>
-			`
+		`
+		As a <a href="https://escience.washington.edu/dssg/" target="_blank">Data Science for Social Good</a> 
+		summer fellow at the University of Washington's eScience Institute, 
+		I worked on a team collaborating with the Bill and Melinda Gates Foundation 
+		and other organizations to help understand and address the 
+		<a href="http://escience.washington.edu/research-project/predictors-of-permanent-housing-for-homeless-families/" target="_blank">
+		problem of family homelessness in western Washington state.
+		</a> 
+		Our contributions included analyzing data, building models, and creating interactive visualizations.
+		`
+	},
+	{
+		"name": "Commitments in written communication",
+		"img": require('./assets/images/cortana_commitments.png'),
+		"description": 
+		`
+		As an intern at Microsoft Research, I worked on a project to help Microsoft's 
+		personal digital assistant, Cortana, identify when people make commitments in their outgoing emails, 
+		and understand what kinds of commitments they make.
+		`
 	},
 ];
 
@@ -40,4 +78,5 @@ projects.forEach(function(item) {
 });
 
 $('#headshot').find('img').attr('src', require('./assets/images/jason_headshot_ischool_11-9-2018_1-748_lo.jpg'));
-console.log($('#headshot'));
+// hide for now
+// $('#headshot').hide()
