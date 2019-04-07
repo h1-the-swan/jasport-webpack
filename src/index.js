@@ -24,6 +24,16 @@ var projects = [
 		`
 	},
 	{
+		"name": "<a href=\"http://www.misinformationresearch.org/\" target=\"_blank\">Mapping Misinformation Research<\/a>",
+		"img": require('./assets/images/coauthorship_thumb.png'),
+		"description": 
+		`
+		I apply tools for visualizing and analyzing the research publications in the emerging fields of Misinformation and Science Communication.
+		Starting with sets of seed papers representing some key recent research in these fields, I provide tools to examine author relationships, influence from outside fields, and related research identified by machine learning.
+		These tools are collected at <a href=\"http://www.misinformationresearch.org/\" target=\"_blank\">misinformationresearch.org<\/a>, as part of a report for the National Academy of Sciences.
+		`
+	},
+	{
 		"name": "Analyzing large citation networks",
 		"img": require('./assets/images/infomap_diagram_thumb.jpg'),
 		"description": 
